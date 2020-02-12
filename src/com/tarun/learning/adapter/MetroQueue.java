@@ -12,7 +12,7 @@ public class MetroQueue {
 		
 		StupidMan man = new StupidMan();
 		
-		add(new Stupid2CivilAdapter(man));
+		add(new RandomToQueueWalkerAdapter(man));
 		
 	}
 	
